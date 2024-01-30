@@ -5,7 +5,7 @@ function checkPassword() {
     if (password === "Loni") {
         alert("Correct password! Welcome.");
         // Redirect to the main content page
-        window.location.href = "main-content.html";
+        window.location.href = "main.html";
     } else {
         alert("Incorrect password. Hint: " + passwordHint);
     }
